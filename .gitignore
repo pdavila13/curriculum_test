@@ -10,3 +10,7 @@ Homestead.yaml
 .idea/
 composer.lock
 yarn.lock
+
+_ide_helper.php
+config/debugbar.php
+storage/
