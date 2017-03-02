@@ -7,10 +7,9 @@
 Homestead.json
 Homestead.yaml
 .env
-.idea/
 composer.lock
 yarn.lock
-
 _ide_helper.php
 config/debugbar.php
+DEADJOE
 storage/
