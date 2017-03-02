@@ -182,6 +182,7 @@ return [
          */
         Laravel\Tinker\TinkerServiceProvider::class,
         Scool\Curriculum\Providers\CurriculumServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
         /*
          * Application Service Providers...
