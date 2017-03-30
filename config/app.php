@@ -180,6 +180,7 @@ return [
         Scool\Curriculum\Providers\CurriculumServiceProvider::class,
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         Spatie\Menu\Laravel\MenuServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Application Service Providers...
