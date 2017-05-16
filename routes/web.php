@@ -18,9 +18,12 @@ Route::get('/', function () {
 });
 
 Route::group(['middleware' => 'auth'], function () {
-    Route::get('/profile/tokqens', function () {
+    Route::get('/profile/tokens', function () {
         return view('tokens');
     });
+
+    Route::get('user/pdf/{id}', 'PdfController@user');
+    Route::get('users/pdf', 'PdfController@users');
 
     //Route::resource('studies', 'StudiesController');
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
