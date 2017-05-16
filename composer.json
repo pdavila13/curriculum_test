@@ -12,6 +12,7 @@
         "acacha/names": "dev-master",
         "acacha/stateful-eloquent": "dev-master",
         "barryvdh/laravel-debugbar": "^2.3",
+        "barryvdh/laravel-dompdf": "^0.8.0",
         "barryvdh/laravel-ide-helper": "^2.3",
         "guzzlehttp/guzzle": "^6.2",
         "laravel/dusk": "^1.1",
