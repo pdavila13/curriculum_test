@@ -22,10 +22,11 @@ Route::group(['middleware' => 'auth'], function () {
         return view('tokens');
     });
 
-    Route::get('user/pdf/{id}', 'PdfController@user');
-    Route::get('users/pdf', 'PdfController@users');
-
     //Route::resource('studies', 'StudiesController');
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
 });
+
+Route::get('user/pdf/{id}', 'PdfController@user');
+Route::get('users/pdf', 'PdfController@users');
+Route::get('users/pdf/view', 'PdfController@users_view');
