@@ -13,11 +13,14 @@ class PdfController extends Controller
 {
     public function users()
     {
-        //
+        return 'todo';
     }
 
     public function user()
     {
-        //
+        $pdf = \App::make('dompdf.wrapper');
+        $pdf->loadHTML('<h1>Hello World!</h1>');
+
+        return $pdf->stream('user');
     }
 }
